@@ -1,0 +1,6 @@
+framework module distribution {
+  umbrella header "distribution.h"
+  export *
+
+  module * { export * }
+}
