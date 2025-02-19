@@ -5504,6 +5504,16 @@
       },
       {
         "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "distribution",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5511,6 +5521,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "distribution"
       },
       {
         "kind": "Import",
@@ -7559,6 +7576,13 @@
       },
       {
         "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "distribution"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -7566,6 +7590,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "distribution"
       },
       {
         "kind": "Import",
@@ -7586,6 +7617,13 @@
       },
       {
         "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "distribution"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -7593,6 +7631,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "distribution"
       },
       {
         "kind": "TypeDecl",
@@ -8571,6 +8616,13 @@
       },
       {
         "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "distribution"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -8578,6 +8630,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "distribution"
       },
       {
         "kind": "TypeDecl",
@@ -8690,7 +8749,8 @@
             "moduleName": "distribution",
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -8741,7 +8801,8 @@
             "moduleName": "distribution",
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -8786,7 +8847,8 @@
             "moduleName": "distribution",
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -8823,7 +8885,38 @@
             "moduleName": "distribution",
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getClientSegment",
+            "printedName": "getClientSegment(clientId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12distribution19MalibleDistributionC16getClientSegment8clientIdS2S_tYaKF",
+            "mangledName": "$s12distribution19MalibleDistributionC16getClientSegment8clientIdS2S_tYaKF",
+            "moduleName": "distribution",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -8866,7 +8959,94 @@
             "moduleName": "distribution",
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "putClientLastLogin",
+            "printedName": "putClientLastLogin(clientId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12distribution19MalibleDistributionC18putClientLastLogin8clientIdSbSS_tYaKF",
+            "mangledName": "$s12distribution19MalibleDistributionC18putClientLastLogin8clientIdSbSS_tYaKF",
+            "moduleName": "distribution",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "postClientAttributes",
+            "printedName": "postClientAttributes(clientId:clientType:payload:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ClientType",
+                "printedName": "distribution.ClientType",
+                "usr": "s:12distribution10ClientTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : distribution.AnyCodable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyCodable",
+                    "printedName": "distribution.AnyCodable",
+                    "usr": "s:12distribution10AnyCodableV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12distribution19MalibleDistributionC20postClientAttributes8clientId0G4Type7payloadSbSS_AA0eI0OSDySSAA10AnyCodableVGtYaKF",
+            "mangledName": "$s12distribution19MalibleDistributionC20postClientAttributes8clientId0G4Type7payloadSbSS_AA0eI0OSDySSAA10AnyCodableVGtYaKF",
+            "moduleName": "distribution",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -8902,172 +9082,186 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/anujgupta\/Documents\/code\/distribution\/distribution\/utils\/ApiClient.swift",
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/ApiClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 214,
+      "offset": 228,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/anujgupta\/Documents\/code\/distribution\/distribution\/utils\/CacheManager.swift",
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/CacheManager.swift",
       "kind": "Dictionary",
-      "offset": 240,
+      "offset": 254,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/anujgupta\/Documents\/code\/distribution\/distribution\/utils\/DecryptSecretManager.swift",
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/DecryptSecretManager.swift",
       "kind": "Dictionary",
-      "offset": 282,
+      "offset": 296,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/anujgupta\/Documents\/code\/distribution\/distribution\/utils\/Defaults.swift",
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1563,
+      "offset": 1576,
       "length": 6,
       "value": "\"user\""
     },
     {
-      "filePath": "\/Users\/anujgupta\/Documents\/code\/distribution\/distribution\/utils\/Defaults.swift",
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1600,
+      "offset": 1613,
       "length": 8,
       "value": "\"device\""
     },
     {
-      "filePath": "\/Users\/anujgupta\/Documents\/code\/distribution\/distribution\/utils\/Defaults.swift",
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1673,
+      "offset": 1686,
       "length": 13,
       "value": "\"Invalid URL\""
     },
     {
-      "filePath": "\/Users\/anujgupta\/Documents\/code\/distribution\/distribution\/utils\/Defaults.swift",
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1716,
+      "offset": 1729,
       "length": 13,
       "value": "\"Invalid Key\""
     },
     {
-      "filePath": "\/Users\/anujgupta\/Documents\/code\/distribution\/distribution\/utils\/Defaults.swift",
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1761,
+      "offset": 1774,
       "length": 15,
       "value": "\"Invalid Token\""
     },
     {
-      "filePath": "\/Users\/anujgupta\/Documents\/code\/distribution\/distribution\/utils\/Defaults.swift",
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1811,
+      "offset": 1824,
       "length": 18,
       "value": "\"Invalid Response\""
     },
     {
-      "filePath": "\/Users\/anujgupta\/Documents\/code\/distribution\/distribution\/utils\/Defaults.swift",
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1865,
+      "offset": 1878,
       "length": 19,
       "value": "\"Network Exception\""
     },
     {
-      "filePath": "\/Users\/anujgupta\/Documents\/code\/distribution\/distribution\/utils\/Defaults.swift",
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1917,
+      "offset": 1930,
       "length": 16,
       "value": "\"Data Exception\""
     },
     {
-      "filePath": "\/Users\/anujgupta\/Documents\/code\/distribution\/distribution\/utils\/Defaults.swift",
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1965,
+      "offset": 1978,
       "length": 15,
       "value": "\"Unknown error\""
     },
     {
-      "filePath": "\/Users\/anujgupta\/Documents\/code\/distribution\/distribution\/utils\/Defaults.swift",
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 2016,
+      "offset": 2029,
       "length": 19,
       "value": "\"General Exception\""
     },
     {
-      "filePath": "\/Users\/anujgupta\/Documents\/code\/distribution\/distribution\/utils\/Defaults.swift",
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 2081,
+      "offset": 2094,
       "length": 25,
       "value": "\"x-malible-manifest-hash\""
     },
     {
-      "filePath": "\/Users\/anujgupta\/Documents\/code\/distribution\/distribution\/utils\/Defaults.swift",
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 2142,
+      "offset": 2155,
       "length": 19,
       "value": "\"x-malible-version\""
     },
     {
-      "filePath": "\/Users\/anujgupta\/Documents\/code\/distribution\/distribution\/utils\/Defaults.swift",
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 2314,
+      "offset": 2327,
       "length": 39,
       "value": "\"https:\/\/d39lfd8hc67jb9.cloudfront.net\""
     },
     {
-      "filePath": "\/Users\/anujgupta\/Documents\/code\/distribution\/distribution\/utils\/Defaults.swift",
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/Defaults.swift",
       "kind": "FloatLiteral",
-      "offset": 2397,
+      "offset": 2410,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/anujgupta\/Documents\/code\/distribution\/distribution\/utils\/Defaults.swift",
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/Defaults.swift",
       "kind": "BooleanLiteral",
-      "offset": 2425,
+      "offset": 2438,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/anujgupta\/Documents\/code\/distribution\/distribution\/utils\/Defaults.swift",
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 2462,
+      "offset": 2475,
       "length": 11,
       "value": "\"expiresAt\""
     },
     {
-      "filePath": "\/Users\/anujgupta\/Documents\/code\/distribution\/distribution\/utils\/Defaults.swift",
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 2499,
+      "offset": 2512,
       "length": 13,
       "value": "\"app.polling\""
     },
     {
-      "filePath": "\/Users\/anujgupta\/Documents\/code\/distribution\/distribution\/utils\/Defaults.swift",
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 2550,
+      "offset": 2563,
       "length": 22,
       "value": "\"app.polling.interval\""
     },
     {
-      "filePath": "\/Users\/anujgupta\/Documents\/code\/distribution\/distribution\/utils\/Defaults.swift",
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/Defaults.swift",
       "kind": "IntegerLiteral",
-      "offset": 2612,
+      "offset": 2625,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/anujgupta\/Documents\/code\/distribution\/distribution\/utils\/Defaults.swift",
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 2687,
+      "offset": 2699,
       "length": 12,
       "value": "\"AUTH.TOKEN\""
     },
     {
-      "filePath": "\/Users\/anujgupta\/Documents\/code\/distribution\/distribution\/utils\/Defaults.swift",
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 2720,
+      "offset": 2732,
       "length": 21,
       "value": "\"ANALYTIC.AUTH.TOKEN\""
+    },
+    {
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/Defaults.swift",
+      "kind": "StringLiteral",
+      "offset": 5524,
+      "length": 26,
+      "value": "\"com.malible.distribution\""
+    },
+    {
+      "filePath": "\/Users\/anujgupta\/Documents\/code\/shared\/packages\/distribution-ios\/distribution\/distribution\/utils\/Defaults.swift",
+      "kind": "StringLiteral",
+      "offset": 5562,
+      "length": 23,
+      "value": "\"@malible\/distribution\""
     }
   ]
 }
