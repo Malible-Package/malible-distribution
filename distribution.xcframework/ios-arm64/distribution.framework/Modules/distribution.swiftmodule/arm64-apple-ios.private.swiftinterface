@@ -9,6 +9,8 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_exported import distribution
+import os.log
+import os
 public struct BaseWorkspace : Swift.Codable {
   public let organizationId: Swift.String
   public let brandId: Swift.String
@@ -282,7 +284,10 @@ final public class MalibleDistribution {
   final public func getPage(pageId: Swift.String, clientId: Swift.String?) async throws -> distribution.BasePage?
   final public func getSecrets(clientId: Swift.String?) async throws -> [distribution.BaseSecrets]
   final public func getClientSegments(clientId: Swift.String) async throws -> [distribution.ClientSegment]
+  final public func getClientSegment(clientId: Swift.String) async throws -> Swift.String
   final public func getClientAttribute(clientId: Swift.String) async throws -> [Swift.String : distribution.AnyCodable]
+  final public func putClientLastLogin(clientId: Swift.String) async throws -> Swift.Bool
+  final public func postClientAttributes(clientId: Swift.String, clientType: distribution.ClientType, payload: [Swift.String : distribution.AnyCodable]) async throws -> Swift.Bool
   @objc deinit
 }
 extension distribution.ClientType : Swift.Equatable {}

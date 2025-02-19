@@ -8,7 +8,7 @@
 Pod::Spec.new do |s|
     s.name             = 'distribution'
     s.version          = '0.0.2'
-    s.summary          = 'A short description of Malible distribution SDK.'
+    s.summary          = 'Malible distribution SDK.'
   
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
   
     s.description      = <<-DESC
   TODO: Add long description of the pod here.
-                         DESC
+                        DESC
   
-    s.homepage         = 'https://github.com/Anuj-Gupta-Malible'
+    s.homepage         = 'https://github.com/Malible-Package/malible-distribution'
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
-    s.author           = { 'Anuj Gupta' => 'anuj@malible.com' }
-    s.source           = { :git => 'git@malible-github:Anuj-Gupta-Malible/test-distribition-sdk.git', :branch => 'master' }
+    s.author           = { 'Malible developer' => 'package@malible.com' }
+    s.source           = { :git => 'git@github.com:Malible-Package/malible-distribution.git', :branch => 'master' }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   
     s.ios.deployment_target = '13.0'
